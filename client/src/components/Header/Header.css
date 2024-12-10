@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 24px;
+    color: #3b3b8c; /* argon logo color */
+    font-weight: bold;
+  }
+  
+  .auth-buttons button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 75px;
+    margin-left: 10px;
+
+  }
+  
+  .biz-login {
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login {
+    background-color: #f56b00;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  

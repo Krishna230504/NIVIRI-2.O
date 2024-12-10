@@ -1,0 +1,92 @@
+.feedback-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .feedback-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .feedback-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc transparent;
+  }
+  
+  .feedback-scroll::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .feedback-scroll::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+  }
+  
+  .feedback-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    flex: 0 0 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+  }
+  
+  .feedback-header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #555;
+  }
+  
+  .feedback-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  
+  .feedback-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+  }
+  
+  .feedback-date {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .feedback-rating {
+    color: #ffcc00;
+    font-size: 18px;
+  }
+  
+  .feedback-comment {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+  }
+  

@@ -1,0 +1,78 @@
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer__contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer__email,
+  .footer__about {
+    max-width: 300px;
+  }
+  
+  .footer__email-input {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .footer__email-input input {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  .footer__email-input button {
+    background-color: orange;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .footer__book-btn {
+    background-color: orange;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+  }
+  
+  .footer__logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer__logo-img {
+    margin-right: 10px;
+  }
+  
+  .footer__links,
+  .footer__socials {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .footer__link,
+  .footer__social-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer__link:hover,
+  .footer__social-link:hover {
+    text-decoration: underline;
+  }
+  

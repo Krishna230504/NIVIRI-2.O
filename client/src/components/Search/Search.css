@@ -1,0 +1,131 @@
+.service-pro-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.service-pro-content {
+  max-width: 50%; 
+}
+
+.service-pro-header {
+  margin-bottom: 20px;
+}
+
+.service-pro-title {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.service-pro-subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-left:10px;
+}
+
+/* Search section */
+.service-pro-search {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.service-pro-location-dropdown {
+  margin-bottom: 5px;
+}
+
+.service-pro-select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 70%;
+}
+
+.align-container{
+  display:flex;
+}
+
+.service-pro-location-tag {
+  font-size:12px;
+  color: #FFFFFF;
+  width:40%;
+  background-color: #5E72E4;
+  border-radius: 10px;
+  display: inline-block;
+  text-align:center;
+  padding:5px;
+}
+
+.service-pro-search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width:75%;
+  margin-left:18px;
+}
+
+.service-pro-input {
+  padding: 10px;
+  font-size: 16px;
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width:200px;
+}
+
+.service-pro-search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f56b00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.service-pro-search-button:hover {
+  background-color: #e25b00;
+}
+
+.service-pro-image-container {
+  text-align: right;
+}
+
+.service-pro-image {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Autocomplete styles */
+.autocomplete-container {
+  position: relative;
+}
+
+.autocomplete-suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.suggestion-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.suggestion-item:hover {
+  background: #f5f5f5;
+}
